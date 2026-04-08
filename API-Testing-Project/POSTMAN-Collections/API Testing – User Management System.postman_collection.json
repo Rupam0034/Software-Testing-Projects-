@@ -1,0 +1,70 @@
+{
+  "info": {
+    "_postman_id": "0d2e2d7c-e8a7-4393-a907-7348599fc2e4",
+    "name": "API Testing – User Management System",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52218990",
+    "_collection_link": "https://go.postman.co/collection/52218990-0d2e2d7c-e8a7-4393-a907-7348599fc2e4?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Test GET",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "x-api-key",
+            "value": "req_6045",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://reqres.in//api/users",
+          "protocol": "https",
+          "host": [
+            "reqres",
+            "in"
+          ],
+          "path": [
+            "",
+            "api",
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "INVALID Test GET-Empty/No data",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Test POST",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Test PUT (Update)",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Test DELETE",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
